@@ -1,0 +1,22 @@
+{
+  "name": "pravexa-technologies-mern",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-ready MERN stack software agency website for Pravexa Technologies.",
+  "scripts": {
+    "install-all": "npm install && npm install --prefix client && npm install --prefix server",
+    "start": "npm start --prefix client",
+    "client": "npm start --prefix client",
+    "server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "mongodb",
+    "agency"
+  ],
+  "author": "Pravexa Technologies",
+  "license": "MIT"
+}

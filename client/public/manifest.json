@@ -1,0 +1,8 @@
+{
+  "short_name": "Pravexa",
+  "name": "Pravexa Technologies",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0F172A",
+  "background_color": "#FFFFFF"
+}

@@ -1,0 +1,11 @@
+function SectionHeader({ eyebrow, title, text }) {
+  return (
+    <div className="section-header fade-up">
+      <span className="eyebrow">{eyebrow}</span>
+      <h2>{title}</h2>
+      {text && <p>{text}</p>}
+    </div>
+  );
+}
+
+export default SectionHeader;
